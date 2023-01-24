@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+body{
+    background: linear-gradient(45deg , red, green, orange);
+}
+
+.conteiner{    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#relogio{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid;
+    background: rgba(94, 91, 91, 0.7);
+    width: 500px;
+    height: 150px;
+    
+}
+
+.botoes{
+    display: block;
+    width: 90px;    
+    padding: 10px ;
+    
+}
+
+.botoes button{
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 5px 15px;
+    color: white;
+    background: none;
+    transition: .6s;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid red;
+
+}
+.botoes button:hover{
+    background: white;
+    color: black;
+    
+}
+
+#horas{
+    font-size: 120px;
+}
+
+#minutos{
+    font-size: 120px;
+}
+
+#segundos{
+    font-size: 120px;
+}

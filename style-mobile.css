@@ -1,0 +1,28 @@
+@media screen and ( max-width: 500px ) {
+    #relogio{
+        width: 90vw;
+        height: 80vh;
+        display: block;
+        border-radius: 16px 14px 53px 53p
+    }
+
+    .botoes{
+        display: flex;
+    }
+    .botoes button{        
+        margin: 10px;       
+        background: linear-gradient(45deg, black, transparent);        
+        border-radius: 50%;
+        height: 88px;
+        width: 88px;
+        font-size: 23px;
+        box-shadow: 0 0 13px -5px inset;
+        border: none;
+    }
+    #horas{
+        font-size: 233px;
+    }
+    #minutos{
+        font-size: 155px;
+    }
+}
